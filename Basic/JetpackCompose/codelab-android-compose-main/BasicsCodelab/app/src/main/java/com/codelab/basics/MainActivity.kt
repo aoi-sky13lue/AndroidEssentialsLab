@@ -96,6 +96,15 @@ fun OnboardingScreen(
         ) {
             Text("Continue")
         }
+        Row{
+            Text("Dark Mode")
+            Button(
+                modifier = Modifier.padding(vertical = 0.dp),
+                onClick = onContinueClicked
+            ){
+                Text("On")
+            }
+        }
     }
 }
 
